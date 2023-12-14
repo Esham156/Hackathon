@@ -1,15 +1,17 @@
 import React from 'react'
 
-function SuperheroCard() {
+function SuperheroCard({hero}) {
   return (
     <>
-        <div className='heroImage'></div>
-        <div className='superName'></div>
+        <div className='heroImage'>
+            <img src={hero.imageurl} alt="hero image" />
+        </div>
+        <div className='superName'>{hero.name}</div>
         <div>
-            <div className='intelligence'></div>
-            <div className='strength'></div>
-            <div className='speed'></div>
-            <div className='durability'></div>
+            <div className='intelligence'>{hero.powerstats.intelligence}</div>
+            <div className='strength'>{hero.powerstats.strength}</div>
+            <div className='speed'>{hero.powerstats.speed}</div>
+            <div className='durability'>{hero.powerstats.durability}</div>
         </div>
     </>
   )
