@@ -1,7 +1,7 @@
 import React from 'react'
 import './home.css'
 import { useAuth } from '../../contexts'
-import { SuperheroCard } from '../../components'
+import { PokemonCard } from '../../components'
 
 function Home() {
 
@@ -10,9 +10,12 @@ function Home() {
   return (
     <>
       <h1>Pokemon Api</h1>
-      <em>Search for facts about your favourite pokemon</em>
-      <div className='list'>
-      {searchArray.map(pokemon =><SuperheroCard key={pokemon.id} hero={pokemon} />)}
+      <em>Add your favorite Pokémons to your Pokédex</em>
+      <div>
+        <div className='pokedex'>My Pokédex</div>
+        <div className='list'>
+            {searchArray.map(pokemon =><PokemonCard key={pokemon.id} pokemon={pokemon} />)}
+        </div>
       </div>
     
     </>

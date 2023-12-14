@@ -1,3 +1,3 @@
 export { default as Header } from './Header'
 export { default as SearchForm } from './SearchForm'
-export { default as SuperheroCard } from './superheroCard'
+export { default as PokemonCard } from './PokemonCard'

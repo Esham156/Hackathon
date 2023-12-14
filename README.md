@@ -13,3 +13,5 @@
 
 - had issues with superhero Api so switched to pokemon Api - some function, folders are still using the superhero naming convention
 - not much in the way of error handling so type in pokemon names correctly
+- useEffect hook runs 2 times when you first enter the pokemon page and when you search a pokemon.
+- if you try to add a pokemon to your pokedex when it is already present there, it displays "No Pokémon found!"

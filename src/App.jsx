@@ -4,7 +4,6 @@ import * as Pages from './pages';
 import { Header } from './components';
 import { AuthProvider } from "./contexts";
 import { BrowserRouter } from 'react-router-dom';
-import './app.css';
 
 function App() {
   return (
@@ -13,7 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Header />}>
           <Route index element={<Pages.HomePage />} />
-          <Route path="/superheros" element={<Pages.SuperHeroPage />} />
+          <Route path="/pokemons" element={<Pages.PokemonPage />} />
         </Route>
       </Routes>
       </BrowserRouter>

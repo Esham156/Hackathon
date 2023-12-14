@@ -1,0 +1,38 @@
+.card{
+    border: 2px solid burlywood;
+    border-radius: 5px;
+    margin:5px ;
+    min-width: 200px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.PokemonName {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.pokemon-img {
+    margin-bottom: 10px;
+}
+  
+.pokemon-img img {
+    max-width: 200px; 
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+  
+.base_experience,
+.weight {
+    margin-bottom: 8px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
