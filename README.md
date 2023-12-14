@@ -1,8 +1,15 @@
-# React + Vite
+## Pokemon API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Installation and Usage
 
-Currently, two official plugins are available:
+- open Git Bash
+- `git clone git@github.com:Esham156/Hackathon.git` into a folder of your choice
+- open in respective code editor
+- `npm i` in terminal
+- `npm run dev` in terminal 
+- app runs on (http://localhost:5173/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Bugs
+
+- had issues with superhero Api so switched to pokemon Api - some function, folders are still using the superhero naming convention
+- not much in the way of error handling so type in pokemon names correctly
