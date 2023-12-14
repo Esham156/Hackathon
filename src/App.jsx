@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Header />}>
           <Route index element={<Pages.HomePage />} />
-          <Route path="/superheros" element={<Pages.SuperHeroPage />} />
+          <Route path="/pokemons" element={<Pages.PokemonPage />} />
         </Route>
       </Routes>
       </BrowserRouter>

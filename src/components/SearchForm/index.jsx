@@ -17,12 +17,12 @@ function SearchForm({ onSearch }) {
     return (
     <form onSubmit={handleSubmit}>
         <label>
-        Search for a Superhero Name:
+        Search for a pokemon Name:
         <input
             type="text"
             value={searchTerm}
             onChange={handleInputChange}
-            placeholder="Enter a superhero name"
+            placeholder="Enter a pokemon name"
         />
         </label>
         <button type="submit">Search</button>

@@ -8,7 +8,7 @@ export default function Header () {
             <header>
                 <nav>
                     <NavLink to="/" style={styles}>Home</NavLink>
-                    <NavLink to="/superheros" style={styles}>Superhero Api</NavLink>
+                    <NavLink to="/pokemons" style={styles}>search pokemon</NavLink>
                 </nav>
             </header>
             <Outlet />
