@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
+import './searchForm.css';
 
 function SearchForm({ onSearch }) {
     
@@ -16,13 +17,13 @@ function SearchForm({ onSearch }) {
 
     return (
     <form onSubmit={handleSubmit}>
+        <h2>Enter a Pokemon</h2>
         <label>
-        Search for a Superhero Name:
         <input
             type="text"
             value={searchTerm}
             onChange={handleInputChange}
-            placeholder="Enter a superhero name"
+            placeholder="Enter a Pokemon"
         />
         </label>
         <button type="submit">Search</button>

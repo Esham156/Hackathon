@@ -1,14 +1,14 @@
 import React from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
-const styles = ({ isActive }) => ({ textDecoration: isActive ? 'underline' : 'none'});
+import './Header.css';
 
 export default function Header () {
     return (
         <main>
             <header>
                 <nav>
-                    <NavLink to="/" style={styles}>Home</NavLink>
-                    <NavLink to="/superheros" style={styles}>Superhero Api</NavLink>
+                    <NavLink to="/" >Home</NavLink>
+                    <NavLink to="/superheros" >Pokemon Index</NavLink>
                 </nav>
             </header>
             <Outlet />
