@@ -6,7 +6,7 @@ function SearchForm({ onSearch }) {
     const [searchTerm, setSearchTerm] = useState('');
 
     const handleInputChange = (event) => {
-    setSearchTerm(event.target.value);
+    setSearchTerm(event.target.value.toLowerCase());
     };
 
     const handleSubmit = (event) => {
