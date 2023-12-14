@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
-const styles = ({ isActive }) => ({ textDecoration: isActive ? 'underline' : 'none'});
+import './Header.css';
 
 export default function Header () {
     return (
