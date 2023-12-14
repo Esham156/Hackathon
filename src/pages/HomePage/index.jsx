@@ -12,7 +12,7 @@ function Home() {
       <h1>Pokemon Api</h1>
       <em>Search for facts about your favourite pokemon</em>
       <div className='list'>
-      {searchArray.map(pokemon =><SuperheroCard key={pokemon.id} hero={pokemon} />)}
+      {/* {searchArray.map(pokemon =><PokemonCard key={pokemon.id} pokemon={pokemon} />)} */}
       </div>
     
     </>
