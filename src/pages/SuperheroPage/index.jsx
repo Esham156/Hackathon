@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import { SearchForm, SuperheroCard } from '../../components'
+import { useAuth } from '../../contexts'
 
 function SuperHeroPage() {
 
+  const { searchArray, setSearchArray } = useAuth()
   const [search, setSearch] = useState('Charmander');
   const [showData, setShowData] = useState([])
 
@@ -13,6 +15,7 @@ function SuperHeroPage() {
   
         const data = await response.json();
         setShowData(data)
+        searchArray.push(data)
     }
   
     fetchSuperheroData();
