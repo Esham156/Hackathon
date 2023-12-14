@@ -4,7 +4,6 @@ import * as Pages from './pages';
 import { Header } from './components';
 import { AuthProvider } from "./contexts";
 import { BrowserRouter } from 'react-router-dom';
-import './app.css';
 
 function App() {
   return (

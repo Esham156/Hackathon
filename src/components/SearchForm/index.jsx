@@ -17,16 +17,14 @@ function SearchForm({ onSearch }) {
 
     return (
     <form onSubmit={handleSubmit}>
-        <h2>Enter a Pokemon</h2>
-        <label>
-        Search for a pokemon Name:
+        <h2><label htmlFor="pokemon">Enter a Pokemon Name:</label></h2>
         <input
+            id='pokemon'
             type="text"
             value={searchTerm}
             onChange={handleInputChange}
             placeholder="Enter a Pokemon"
         />
-        </label>
         <button type="submit">Search</button>
     </form>
     );
